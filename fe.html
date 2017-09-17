@@ -1,0 +1,79 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+        ul,li {
+            margin: 0;
+            padding: 0;
+        }
+		.logo-box, .nav-bar, .content {
+            width: 1102px;
+			border: 1px dashed red;
+            margin: 0 auto;
+		}
+		.logo-box {
+			height: 94px;
+			/*background-color: #f00;*/
+
+		}
+		.nav-bar {
+            /*padding: 10px 0;*/
+            /*margin: 10px;*/
+			/*height: 50px;*/
+			/*background-color: pink;*/
+		}
+		.content {
+			height: 900px;
+			/*background-color: black;*/
+		}
+		#f {
+			border: 1px dashed black;
+		}
+		div {
+
+		}
+		a {
+            text-decoration: none;
+			color: red;
+		}
+		.logo-box  a {
+			color: blue;
+		}
+        ul {
+            list-style: none;
+        }
+        ul li {
+            float: left;
+            padding: 10px 40px;
+        }
+        ul li:hover {
+            background-color: pink;
+        }
+        .clearfix::after {
+            height: 0;
+            content: "";
+            display: block;
+            clear: both;
+        }
+	</style>
+</head>
+<body>
+	<div id="f" class="logo-box" style="border: 1px dashed pink;"><!-- 行内样式不常用 -->
+        <img src="./top-img.png" alt="">
+	</div>
+	<div class="nav-bar">
+        <ul class="clearfix">
+            <li><a href="">html/css</a></li>
+            <li><a href="">javascript</a></li>
+            <li><a href="">serviceside</a></li>
+            <li><a href="">asp.net</a></li>
+            <li><a href="">xml</a></li>
+            <li><a href="">webservices</a></li>
+            <li><a href="">webbuilding</a></li>
+        </ul>
+	</div>
+	<div class="content">3</div>
+</body>
+</html>
